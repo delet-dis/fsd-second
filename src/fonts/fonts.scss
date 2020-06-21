@@ -1,32 +1,36 @@
-@font-face{
+@import "../colors/colors.scss";
+@mixin H1__custom {
   font-family: Quicksand;
+  font-style: normal;
   font-weight: bold;
-  src: url('../fonts/src/Qiocksand-Bold/Quicksand-Bold.eot');
-  src: url('../fonts/src/Qiocksand-Bold/Quicksand-Bold.woff') format('woff'), 
-  url('../fonts/src/Qiocksand-Bold/Quicksand-Bold.ttf') format('truetype'), 
-  url('../fonts/src/Qiocksand-Bold/Quicksand-Bold.svg') format('svg');
+  font-size: 24px;
+  line-height: 30px;
+  color: $darkShade100;
 }
-@font-face{
+@mixin H2__custom {
   font-family: Quicksand;
-  font-weight: normal;
-  src: url('../fonts/src/Qiocksand-Normal/Quicksand-Normal.eot');
-  src: url('../fonts/src/Qiocksand-Normal/Quicksand-Normal.woff') format('woff'), 
-  url('../fonts/src/Qiocksand-Normal/Quicksand-Normal.ttf') format('truetype'), 
-  url('../fonts/src/Qiocksand-Normal/Quicksand-Normal.svg') format('svg');
-}
-@font-face{
-  font-family: Montserrat;
-  font-weight: normal;
-  src: url('../fonts/src/Montserrat-Normal/Montserrat-Normal.eot');
-  src: url('../fonts/src/Montserrat-Normal/Montserrat-Normal.woff') format('woff'), 
-  url('../fonts/src/Montserrat-Normal/Montserrat-Normal.ttf') format('truetype'), 
-  url('../fonts/src/Montserrat-Normal/Montserrat-Normal.svg') format('svg');
-}
-@font-face{
-  font-family: Montserrat;
+  font-style: normal;
   font-weight: bold;
-  src: url('../fonts/src/Montserrat-Bold/Montserrat-Bold.eot');
-  src: url('../fonts/src/Montserrat-Bold/Montserrat-Bold.woff') format('woff'), 
-  url('../fonts/src/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype'), 
-  url('../fonts/src/Montserrat-Bold/Montserrat-Bold.svg') format('svg');
+  font-size: 19px;
+  line-height: 24px;
+  color: $darkShade100;
+}
+@mixin H3__custon{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+/* identical to box height */
+  text-transform: uppercase;
+  color: $darkShade100;
+}
+@mixin body__custom {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+/* or 171% */
+  color: $darkShade75;
 }
