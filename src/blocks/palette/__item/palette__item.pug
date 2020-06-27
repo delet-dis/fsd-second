@@ -1,4 +1,4 @@
-mixin palette__item(name, code, opacity)
-  li.palette__item
-    +palette__plate(name)
-    +palette__label(name, code)
+mixin palette-item(name, code)
+  div.palette-plate
+  div.color-header= name
+  div.color-code= code
