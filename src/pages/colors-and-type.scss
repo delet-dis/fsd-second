@@ -1,4 +1,8 @@
 @import "../fonts/fonts.scss";
 @import "../blocks/palette/palette.scss";
 @import "../blocks/reseter/reseter.scss";
-@import "../blocks/logo-header/logo-header.scss"
+@import "../blocks/logo-header/logo-header.scss";
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
