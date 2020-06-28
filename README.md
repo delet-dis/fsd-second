@@ -8,4 +8,4 @@ Project by Efimov Igor
     4. npm run start
 
 ### Pages
-  - [Colors & Type](https://delet-dis.github.io/fsd-second/colors-and-type.html)
+  - [Colors & Type](https://delet-dis.github.io/fsd-second/colors-and-type)
