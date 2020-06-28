@@ -1,7 +1,7 @@
-mixin palette-item(name, code)
+mixin palette-item(name, code, codeClass)
   li.palette-item
     div.palette-wrapper
-      div.palette-plate
+      div(class= codeClass).palette-plate
       div.description-wrapper
         div.color-header= name
         div.color-code= code
