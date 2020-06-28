@@ -1,0 +1,20 @@
+.palette-wrapper{
+  display: flex;
+  column-gap: 20px;
+}
+.palette-plate{
+  border-radius: 6px;
+  width: 70px;
+  height: 70px;
+  margin-right: 40px;
+  background-color:$darkShade100;
+}
+.color-header{
+  @include H2__custom;
+  margin-top: 9px;
+}
+.color-code{
+  @include body__custom;
+  margin-top: 6px;
+  font-size: 18px;
+}
