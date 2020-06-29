@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/pages/colors-and-type.pug --open",
-    "build": "parcel build src/pages/colors-and-type.pug -d docs --public-url ./"
+    "start": "parcel src/pages/colors-and-type/colors-and-type.pug --open",
+    "build": "parcel build src/pages/colors-and-type/colors-and-type.pug -d docs --public-url ./"
   },
   "keywords": [],
   "author": "",
