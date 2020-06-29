@@ -2,7 +2,8 @@
   padding-bottom: 50px;
 }
 .fonts-wrapper{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 .font-label{
   color: $darkShade25;
@@ -21,5 +22,5 @@
   @include H3__custom;
 }
 .body__text{
-  @include H1__custom;
+  @include body__custom;
 }
