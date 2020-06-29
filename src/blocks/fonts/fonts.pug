@@ -1,4 +1,6 @@
 include ./__item/fonts__item
 mixin fonts
   ul.fonts-list
-    +fonts-item("H1", "This one is sub-section or widget title")
+    +fonts-item("H1", "This one is sub-section or widget title", "H1__text")
+    +fonts-item("H2", "Next one is the item title inside widgets", "H2__text")
+    +fonts-item("H3", "This is a label or CTA text", "H3__text")

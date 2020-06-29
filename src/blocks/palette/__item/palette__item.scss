@@ -20,6 +20,10 @@
   margin-top: 6px;
   font-size: 18px;
 }
+.description-wrapper{
+  display: flex;
+  flex-direction: column;
+}
 .darkShade100{
   background-color: $darkShade100;
 }

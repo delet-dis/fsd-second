@@ -1,3 +1,25 @@
+.fonts-item{
+  padding-bottom: 50px;
+}
 .fonts-wrapper{
   display: flex;
+}
+.font-label{
+  color: $darkShade25;
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  text-align: right;
+  margin-right: 30px;
+}
+.H1__text{
+  @include H1__custom;
+}
+.H2__text{
+  @include H2__custom;
+}
+.H3__text{
+  @include H3__custom;
+}
+.body__text{
+  @include H1__custom;
 }

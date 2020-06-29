@@ -1,7 +1,7 @@
 @import "../colors/colors.scss";
 @import "./fonts__injector.scss";
 @mixin H1__custom {
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -9,15 +9,15 @@
   color: $darkShade100;
 }
 @mixin H2__custom {
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
   line-height: 24px;
   color: $darkShade100;
 }
-@mixin H3__custon{
-  font-family: Montserrat;
+@mixin H3__custom{
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -27,7 +27,7 @@
   color: $darkShade100;
 }
 @mixin body__custom {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
