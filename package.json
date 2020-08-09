@@ -2,17 +2,16 @@
   "name": "fsd-second",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/pages/colors-and-type/colors-and-type.pug --open",
-    "build": "parcel build src/pages/colors-and-type/colors-and-type.pug -d docs --public-url ./"
+    "build": "parcel build src/pages/*/*.pug --dist-dir docs --public-url ./"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.4",
+    "parcel": "^2.0.0-beta.1",
     "pug": "^3.0.0",
     "sass": "^1.26.10"
   }
