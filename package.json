@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly",
+    "parcel": "^2.8.2",
     "pug": "^3.0.1",
     "sass": "^1.26.10"
   }
